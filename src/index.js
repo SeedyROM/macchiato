@@ -5,7 +5,9 @@ import { ConnectedRouter } from 'react-router-redux'
 import store, { history } from './modules/store'
 import App from './components/App'
 
-import './index.css'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap-theme.css'
+import './styles/main.scss'
 
 const target = document.querySelector('#root')
 
